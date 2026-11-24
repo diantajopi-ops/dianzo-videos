@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emang Iya?! — Link Produk</title>
+<meta name="description" content="Link produk dari video seri Emang Iya?! — bongkar mitos sehari-hari lewat animasi 3D.">
+<style>
+  :root{--bg:#fff7e6;--ink:#1d1b26;--yellow:#ffd23f;--red:#e63b2e;--card:#ffffff;--muted:#6b6577}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Trebuchet MS",system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;
+    background-image:radial-gradient(circle at 1px 1px,#f1e3c4 1px,transparent 0);background-size:22px 22px}
+  main{max-width:460px;margin:0 auto;padding:36px 18px 48px}
+  header{text-align:center;margin-bottom:26px}
+  h1{font-size:44px;font-weight:900;letter-spacing:-1px;color:var(--yellow);transform:rotate(-3deg);
+    -webkit-text-stroke:2px var(--ink);text-shadow:4px 4px 0 var(--ink);line-height:1}
+  header p{margin-top:16px;font-size:15px;color:var(--ink)}
+  .socials{display:flex;justify-content:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+  .socials a{font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;border:2px solid var(--ink);
+    border-radius:999px;padding:5px 12px;background:#fff}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin:0 0 12px 4px}
+  .card{display:block;background:var(--card);border:2.5px solid var(--ink);border-radius:16px;padding:16px;
+    margin-bottom:14px;text-decoration:none;color:var(--ink);box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+  .card:hover,.card:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+  .card.new{background:var(--yellow)}
+  .tag{display:inline-block;font-size:11px;font-weight:800;background:var(--red);color:#fff;border-radius:6px;padding:2px 7px;margin-bottom:8px}
+  .video{font-size:13px;color:var(--muted)}
+  .card.new .video{color:#4a3f10}
+  .prod{font-size:17px;font-weight:800;margin:4px 0 10px;line-height:1.25}
+  .row{display:flex;justify-content:space-between;align-items:center}
+  .price{font-weight:800}
+  .btn{font-size:13px;font-weight:800;background:var(--ink);color:#fff;border-radius:999px;padding:7px 14px}
+  footer{margin-top:28px;text-align:center;font-size:12px;color:var(--muted);line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>EMANG IYA?!</h1>
+    <p>Barang-barang dari video mitos kita 👇</p>
+    <div class="socials">
+      <a href="https://instagram.com/lens_of_dianzo">Instagram</a>
+      <a href="https://tiktok.com/@dianzobattlesage">TikTok</a>
+      <a href="https://www.youtube.com/channel/UC5CEEHIyHBEmHPqRIsBFLcg">YouTube</a>
+      <a href="https://www.facebook.com/dianta.jopi">Facebook</a>
+    </div>
+  </header>
+  <h2>Produk dari video</h2>
+  <div id="list"></div>
+  <footer>Link di atas adalah link afiliasi Shopee.<br>Kalau kamu beli lewat link ini, aku dapat komisi kecil tanpa biaya tambahan buat kamu. Makasih! 🙏</footer>
+</main>
+<script>
+  fetch('products.json?v=' + Date.now()).then(r => r.json()).then(items => {
+    items.sort((a, b) => b.date.localeCompare(a.date));
+    const list = document.getElementById('list');
+    items.forEach((it, i) => {
+      const a = document.createElement('a');
+      a.className = 'card' + (i === 0 ? ' new' : '');
+      a.href = it.url; a.target = '_blank'; a.rel = 'noopener sponsored';
+      a.innerHTML = (i === 0 ? '<span class="tag">VIDEO TERBARU</span>' : '') +
+        '<div class="video"></div><div class="prod"></div>' +
+        '<div class="row"><span class="price"></span><span class="btn">Lihat di Shopee →</span></div>';
+      a.querySelector('.video').textContent = (it.emoji || '🎬') + ' ' + it.video;
+      a.querySelector('.prod').textContent = it.product;
+      a.querySelector('.price').textContent = it.price || '';
+      list.appendChild(a);
+    });
+  }).catch(() => {
+    document.getElementById('list').textContent = 'Gagal memuat produk, coba muat ulang halaman.';
+  });
+</script>
+</body>
+</html>
