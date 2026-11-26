@@ -1,3 +1,4 @@
 # Log balas komentar "Emang Iya?!"
 
 - 2026-11-26 12:14 WIB (run siang) — Facebook: 0 baru / 0 dibalas / 0 dilewati (3 reel terakhir: awan, ngecas HP, mandi malam — belum ada komentar). YouTube: 0 baru / 0 dibalas / 0 dilewati (Studio 'belum dibalas' hanya 2 komentar lama >3 hari, di luar cakupan). Contoh komentar: -. Gagal akses: -.
+- 2026-11-26 20:15 WIB (run malam) — Instagram: 1 baru / 0 dibalas / 1 dilewati (reel mandi malam: komentar dari akun dianzo_spoilerdude, tampaknya akun Dianta sendiri; reel ngecas sudah dibalas; reel awan belum ada komentar). TikTok: 0 baru / 0 dibalas / 0 dilewati (3 video terakhir 0 komentar). Facebook: 0 / 0 / 0 (cek ulang 3 reel, belum ada komentar). YouTube: 0 / 0 / 0 (Studio 'belum dibalas' hanya 2 komentar lama di luar cakupan). Contoh komentar: "Jadi hoak ya?" (IG, mandi malam — dilewati). Gagal akses: -.
