@@ -8,3 +8,14 @@
 - Jam tayang: IG 19:00 WIB (custom, uji jam), TikTok 19:00 WIB (custom, uji jam), YouTube 11:25 WIB (queue), FB langsung ±08:55 WIB
 - Status: IG terjadwal ✅, TikTok terjadwal ✅, YouTube terjadwal ✅, FB terposting publik ✅ (muncul di tab Reels)
 - Masalah: folder D:\HASIL VIDEO DIANZO belum terhubung di awal run → diminta akses ulang & disetujui. Upload FB dari /home/claude ditolak ekstensi → pakai /mnt/user-data/outputs/. Stok tersisa: 1 video (emang-iya-spbu.mp4).
+
+## 2026-11-27 — emang-iya-spbu.mp4
+- Mitos: Emang iya main HP di pom bensin bisa bikin SPBU meledak? (fakta: sinyal HP terlalu lemah memicu percikan/membakar uap bensin; Petroleum Equipment Institute: 0 kasus terbukti dari HP; risiko nyata: listrik statis & hilang fokus)
+- Cover: 3,5 dtk (THUMB_MS 3500, judul "EMANG IYA?!" + karakter) — diterima Buffer; FB cover dipilih manual ±3 dtk (thumbnail menampilkan "EMANG IYA?!")
+- Produk: Holder HP Mobil WOLFCASE HDP252 360° — Rp29.900 (10RB+ terjual, komisi 11,5%) — https://s.shopee.co.id/70M1FeN1at
+- Lagu FB: "Dj Bounce & Pa Boom Pa" – Rian DTM, Vian DTM (pencarian "viral"; daftar Musik awal spinner), volume musik 17%, video 100%
+- Versi file FB: 1080p 2-pass, 9,6 MB (1669 kbps) — upload sukses, tanpa cadangan
+- Jam tayang: IG 19:00 WIB (custom, uji jam), TikTok 19:00 WIB (custom, uji jam), YouTube 11:25 WIB (queue), FB langsung ±09:00 WIB
+- Status: IG terjadwal ✅, TikTok terjadwal ✅, YouTube terjadwal ✅, FB terposting publik ✅ (muncul di tab Reels)
+- Sisa stok video: 2 (emang-iya-kesurupan.mp4, emang-iya-beri.mp4)
+- Masalah: folder D:\HASIL VIDEO DIANZO belum terhubung di awal run → diminta akses ulang & disetujui.
