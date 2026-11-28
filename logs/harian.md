@@ -19,3 +19,14 @@
 - Status: IG terjadwal ✅, TikTok terjadwal ✅, YouTube terjadwal ✅, FB terposting publik ✅ (muncul di tab Reels)
 - Sisa stok video: 2 (emang-iya-kesurupan.mp4, emang-iya-beri.mp4)
 - Masalah: folder D:\HASIL VIDEO DIANZO belum terhubung di awal run → diminta akses ulang & disetujui.
+
+## 2026-11-28 — emang-iya-kesurupan.mp4
+- Mitos: Emang iya kesurupan massal karena makhluk halus pindah dari satu orang ke orang lain? (fakta: Mass Psychogenic Illness — berawal dari 1 orang kelelahan berat lalu kolaps; panik & sugesti visual memicu reaksi serupa di sekitarnya; yang menular gelombang kepanikan otak, bukan sosok gaib)
+- Cover: 6,0 dtk (THUMB_MS 6000, judul "EMANG IYA?!" + kelas) — diterima Buffer
+- Produk: DILEWATI — Chrome Dianta tidak terjangkau (ekstensi Claude in Chrome tidak terhubung, dicoba 2x)
+- Lagu FB: — (FB tidak diposting)
+- Versi file FB: 1080p 2-pass 9,6 MB (1792 kbps) sudah dibuat, belum diupload
+- Jam tayang: IG 19:00 WIB (custom, uji jam), YouTube 11:25 WIB (queue)
+- Status: IG terjadwal ✅, YouTube terjadwal ✅, TikTok ❌ (channel @emangiya_dianzo 6b051fee… tidak ada lagi di Buffer — "Channel not found"; TikTok yang terhubung kini hanya depotaerplus, sengaja TIDAK dipakai), FB ❌ (Chrome tidak terjangkau)
+- Sisa stok video: 1 (emang-iya-beri.mp4)
+- Masalah: folder D:\HASIL VIDEO DIANZO belum terhubung di awal run → diminta akses ulang & disetujui. Pesan dikirim ke Dianta soal TikTok & Chrome.
